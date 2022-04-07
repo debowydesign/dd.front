@@ -21,11 +21,12 @@
     height:100px;
     }
 
-    .kontainer{
-        max-width: 1000px;
-        width:100%;
-        margin:0 auto;
-        position:absolute;
-        height:100px;
-        }
+.photoContainer{
+    max-width: 2000px;
+    width:900px;
+    max-height: 1000px;
+    margin:0 auto;
+    position:absolute;
+    height:10px;
+}
 
