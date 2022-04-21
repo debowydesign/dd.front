@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
 import {RouterModule} from "@angular/router";
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {RouterModule} from "@angular/router";
     LoginComponent,
     RegisterComponent,
     FooterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
