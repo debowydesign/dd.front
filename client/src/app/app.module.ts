@@ -11,6 +11,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
 import {RouterModule} from "@angular/router";
+import { MebleComponent } from './meble/meble.component';
+import { ONasComponent } from './o-nas/o-nas.component';
+import { MebleNaWymiarComponent } from './meble-na-wymiar/meble-na-wymiar.component';
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import {RouterModule} from "@angular/router";
     LoginComponent,
     RegisterComponent,
     FooterComponent,
+    MebleComponent,
+    ONasComponent,
+    MebleNaWymiarComponent,
+    KontaktComponent,
   ],
   imports: [
     BrowserModule,
